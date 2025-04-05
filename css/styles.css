@@ -293,6 +293,18 @@ button {
 
 .footer {
         background-color: #2E2F42;
+        padding-bottom: 100px;
+        padding-top: 100px;
+}
+
+.footer-container {
+    width: 264px;
+    margin-right: auto;
+}
+
+.footer-logo-full {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo {
