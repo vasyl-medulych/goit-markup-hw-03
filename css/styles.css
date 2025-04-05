@@ -24,6 +24,10 @@ button:hover {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+img {
+    display: block
+}
 /* reset-css */
 
 ul {
