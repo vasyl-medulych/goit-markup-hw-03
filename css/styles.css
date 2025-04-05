@@ -297,11 +297,6 @@ button {
         padding-top: 100px;
 }
 
-.footer-container {
-    width: 264px;
-    margin-right: auto;
-}
-
 .footer-logo-full {
     display: inline-block;
     margin-bottom: 16px;
@@ -316,4 +311,5 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
