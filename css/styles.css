@@ -1,34 +1,90 @@
+/* base-css */
 body {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #434455;
 }
 
-ul {
-        list-style-type: none;
-}
-
 a {
-        text-decoration: none;
+    text-decoration: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #404bbf;
 }
-    
+
+button:focus,
+button:hover {
+    background-color: #404BBF;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* reset-css */
+
+ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
 
 button {
     cursor: pointer;
 }
 
-button:focus, button:hover {
-    background-color: #404BBF;
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    padding: 24px;
+    margin-right: 76px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.sol-container {
+    display: block;
 }
 
 .contact {
     font-style: normal;
+    margin-left: auto;
 }
-    
+
+.contact-list {
+    display: flex;
+    gap: 40px;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -52,41 +108,68 @@ button:focus, button:hover {
 }
 
 .contact-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+/* main css */
 .solution-sec {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-bottom: 120px;
 }
 
 .solution {
+    width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    
 }
 
 .order-service {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.goals-section {
+        margin: 0 auto;
 }
 
+.goals-list {
+    display: flex;
+    gap: 24px;
+}
+
+.goals-item {
+    width: calc((100% - 72px) / 4);
+}
 .goals-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .goals-text {
@@ -95,8 +178,9 @@ button:focus, button:hover {
     letter-spacing: 0.02em;
     /* color: #434455; */
 }
-
-.studio {
+.section-studio {
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #F4F4FD;
 }
 
