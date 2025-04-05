@@ -125,11 +125,10 @@ button {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-    margin-bottom: 120px;
 }
 
 .solution {
-    width: 496px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -152,11 +151,14 @@ button {
     margin: 0 auto;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .goals-section {
-        margin: 0 auto;
+    margin: 0 auto;
+    padding: 120px 0 120px;
 }
 
 .goals-list {
