@@ -249,6 +249,32 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
 }
+.portfolio {
+    padding: 120px 0;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.porfolio-div {
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    padding: 32px 16px;
+}
 
 .portfolio-title {
     font-weight: 500;
@@ -256,7 +282,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
+    }
 
 .portfolio-text {
     font-size: 16px;
